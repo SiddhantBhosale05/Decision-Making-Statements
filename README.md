@@ -38,7 +38,7 @@ if (condition) {
      - Print "The point is in the third quadrant."
    - **Else If** `x > 0` and `y < 0`:
      - Print "The point is in the fourth quadrant."
-   - **Else If** `(x == 0` and `y != 0)` **or** `(num1 != 0` and `num2 == 0)`:
+   - **Else If** `(x == 0` and `y != 0)` **or** `(x != 0` and `y == 0)`:
      - Print "The point is on the axis."
    - **Else**:
      - Print "The point is at the origin."
