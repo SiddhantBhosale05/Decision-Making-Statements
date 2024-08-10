@@ -1,13 +1,14 @@
 # Decision-Making-Statements
 Experiment 5
+
 ## AIM
 To use decision making If-else.
 ## Software Used
 VS Code
 ## Theory
-Decision-making is a concept that allows the execution of different code paths based on conditions. The if and else statements are primary constructs used for decision-making in C++. These constructs enable the implementation of conditional logic. They help us check whether a condition is true and if it is, then the block inside the same is executed.
-example-
-
+Decision-making is a concept that allows the execution of different code paths based on conditions. The if and else statements are primary constructs used for decision-making in  C++. These constructs enable the implementation of conditional logic. They help us check whether a condition is true and if it is, then the block inside the same is executed.  
+example:
+```cpp
 if (condition) {
     // Code to be executed if the condition is true
 } else {
@@ -15,68 +16,68 @@ if (condition) {
 }
 
 }
+```
 ## Algorithm
+### Quadrant Checker
 
-Quadrant Checker
+1. **Start**
 
-Start
+2. **Initialize**:
+   - Declare two integer variables `num1` and `num2`.
 
-Initialize:
+3. **Input**:
+   - Ask the user to enter the X-axis coordinate and store it in `num1`.
+   - Ask the user to enter the Y-axis coordinate and store it in `num2`.
 
-Declare two integer variables num1 and num2.
-Input:
+4. **Decision Making** (using if-else statements):
+   - **If** `num1 > 0` and `num2 > 0`:
+     - Print "The point is in the first quadrant."
+   - **Else If** `num1 < 0` and `num2 > 0`:
+     - Print "The point is in the second quadrant."
+   - **Else If** `num1 < 0` and `num2 < 0`:
+     - Print "The point is in the third quadrant."
+   - **Else If** `num1 > 0` and `num2 < 0`:
+     - Print "The point is in the fourth quadrant."
+   - **Else If** `(num1 == 0` and `num2 != 0)` **or** `(num1 != 0` and `num2 == 0)`:
+     - Print "The point is on the axis."
+   - **Else**:
+     - Print "The point is at the origin."
 
-Ask the user to enter the X-axis coordinate and store it in num1.
-Ask the user to enter the Y-axis coordinate and store it in num2.
-Decision Making (using if-else statements):
+5. **End**
 
-If num1 > 0 and num2 > 0:
-Print "The point is in the first quadrant."
-Else If num1 < 0 and num2 > 0:
-Print "The point is in the second quadrant."
-Else If num1 < 0 and num2 < 0:
-Print "The point is in the third quadrant."
-Else If num1 > 0 and num2 < 0:
-Print "The point is in the fourth quadrant."
-Else If (num1 == 0 and num2 != 0) or (num1 != 0 and num2 == 0):
-Print "The point is on the axis."
-Else:
-Print "The point is at the origin."
-End
+### Positive or Negative
 
-Positive or Negative
+1. **Start**
 
-Start
+2. **Initialize**:
+   - Declare a float variable `num`.
 
-Initialize:
+3. **Input**:
+   - Ask the user to enter a number and store it in `num`.
 
-Declare a float variable num.
-Input:
+4. **Decision Making** (using if-else statements):
+   - **If** `num > 0`:
+     - Print "The num is POSITIVE."
+   - **Else**:
+     - Print "The num is NEGATIVE."
 
-Ask the user to enter a number and store it in num.
-Decision Making (using if-else statements):
+5. **End**
 
-If num > 0:
-Print "The num is POSITIVE."
-Else:
-Print "The num is NEGATIVE."
-End
+### Vowel Checker
 
-Vowel Checker
+1. **Start**
 
-Start
+2. **Initialize**:
+   - Declare a `char` variable `a`.
 
-Initialize:
+3. **Input**:
+   - Ask the user to enter a character and store it in `a`.
 
-Declare a char variable a.
-Input:
+4. **Decision Making** (using if-else statements):
+   - **If** `a` is one of the following vowels (both lowercase and uppercase):
+     - `'a'`, `'e'`, `'i'`, `'o'`, `'u'`, `'A'`, `'E'`, `'I'`, `'O'`, `'U'`:
+     - Print "`a` is a vowel."
+   - **Else**:
+     - Print "`a` is a consonant."
 
-Ask the user to enter a character and store it in a.
-Decision Making (using if-else statements):
-
-If a is one of the following vowels (both lowercase and uppercase):
-'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U':
-Print "a is a vowel."
-Else:
-Print "a is a consonant."
-End
+5. **End**
