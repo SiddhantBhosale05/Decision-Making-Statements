@@ -12,19 +12,22 @@ int main(){
     cout<<"Enter the value for y:"<<endl;
     cin>>y;
     if (x > 0 && y>0) {
-            cout<<"it is in first quadrant"<<endl;
+         cout<<"The point is in first quadrant"<<endl;
     }
     else if (x<0 && y>0) {
-         cout<<"it is in second quadrant"<<endl;
+         cout<<"The point is in second quadrant"<<endl;
     }
     else if (x<0 && y<0) {
-        cout<<"it is in third quadrant"<<endl;
+        cout<<"The point is in third quadrant"<<endl;
     }
     else if (x>0 && y<0) {
-        cout<<"it is in fourth quadrant"<<endl;
+        cout<<"The point is in fourth quadrant"<<endl;
+    }
+    else if ((x==0 && y!=0) || (x!=0 && y==0)) {
+        cout <<"The point is on axis";
     }
     else{
-        cout<<"it is on origin"<<endl;
+        cout<<"The point is on origin"<<endl;
     }
     
     return 0;
@@ -37,47 +40,47 @@ Enter the value for x :
 1
 Enter the value for y:
 1
-it is in first quadrant
+The point is in first quadrant
 
 For Second Quadrant-
 Enter the value for x :
 -1
 Enter the value for y:
 1
-it is in second quadrant
+The point is in second quadrant
 
 For Third Quadrant-
 Enter the value for x :
 -1
 Enter the valu for y:
 -1
-it is in third quadrant
+The point is in third quadrant
 
 For Fourth Quadrant-
 Enter the value for x :
 1
 Enter the valu for y:
 -1
-it is in fourth quadrant
+The point is in fourth quadrant
 
 For Origin-
 Enter the value for x :
 0
 Enter the valu for y:
 0
-it is on origin
+The point is on origin
 
 For Point On Y-Axis-
 Enter the value for x :
 0
 Enter the value for y:
 3
-the point is on axis
+The point is on axis
 
 For Point On X-Axis-
 Enter the value for x :
 1
 Enter the value for y:
 0
-the point is on axis
+The point is on axis
 */
