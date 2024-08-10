@@ -63,7 +63,7 @@ if (condition) {
 
 5. **End**
 
-### Vowel Checker
+### Vowel and Consonant
 
 1. **Start**
 
