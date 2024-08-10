@@ -18,7 +18,7 @@ if (condition) {
 }
 ```
 ## Algorithm
-### Quadrant Checker
+### To Check the Quadrants
 
 1. **Start**
 
@@ -45,7 +45,7 @@ if (condition) {
 
 5. **End**
 
-### Positive or Negative
+### Positive and Negative
 
 1. **Start**
 
