@@ -1,4 +1,4 @@
-# Decision-Making-Statements
+# Decision Making Statements
 Experiment 5
 
 ## AIM
