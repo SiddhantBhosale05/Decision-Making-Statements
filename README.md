@@ -23,22 +23,22 @@ if (condition) {
 1. **Start**
 
 2. **Initialize**:
-   - Declare two integer variables `num1` and `num2`.
+   - Declare two integer variables `x` and `y`.
 
 3. **Input**:
-   - Ask the user to enter the X-axis coordinate and store it in `num1`.
-   - Ask the user to enter the Y-axis coordinate and store it in `num2`.
+   - Ask the user to enter the X-axis coordinate and store it in `x`.
+   - Ask the user to enter the Y-axis coordinate and store it in `y`.
 
 4. **Decision Making** (using if-else statements):
-   - **If** `num1 > 0` and `num2 > 0`:
+   - **If** `x > 0` and `y > 0`:
      - Print "The point is in the first quadrant."
-   - **Else If** `num1 < 0` and `num2 > 0`:
+   - **Else If** `x < 0` and `y > 0`:
      - Print "The point is in the second quadrant."
-   - **Else If** `num1 < 0` and `num2 < 0`:
+   - **Else If** `x < 0` and `y < 0`:
      - Print "The point is in the third quadrant."
-   - **Else If** `num1 > 0` and `num2 < 0`:
+   - **Else If** `x > 0` and `y < 0`:
      - Print "The point is in the fourth quadrant."
-   - **Else If** `(num1 == 0` and `num2 != 0)` **or** `(num1 != 0` and `num2 == 0)`:
+   - **Else If** `(x == 0` and `y != 0)` **or** `(num1 != 0` and `num2 == 0)`:
      - Print "The point is on the axis."
    - **Else**:
      - Print "The point is at the origin."
@@ -68,16 +68,16 @@ if (condition) {
 1. **Start**
 
 2. **Initialize**:
-   - Declare a `char` variable `a`.
+   - Declare a `char` variable `character`.
 
 3. **Input**:
    - Ask the user to enter a character and store it in `a`.
 
 4. **Decision Making** (using if-else statements):
-   - **If** `a` is one of the following vowels (both lowercase and uppercase):
+   - **If** `character` is one of the following vowels (both lowercase and uppercase):
      - `'a'`, `'e'`, `'i'`, `'o'`, `'u'`, `'A'`, `'E'`, `'I'`, `'O'`, `'U'`:
-     - Print "`a` is a vowel."
+     - Print "`character` is a vowel."
    - **Else**:
-     - Print "`a` is a consonant."
+     - Print "`character` is a consonant."
 
 5. **End**
