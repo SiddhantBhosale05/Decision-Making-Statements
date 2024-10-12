@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to find Average of marks and to Grade it
+//Aim:Implementation of Decision Making Statements to find Average of marks and to Grade it
 
 #include <iostream>
 using namespace std;
