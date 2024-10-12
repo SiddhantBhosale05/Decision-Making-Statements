@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to Check the give Character is a Vowel or Consonant
+//Aim:Implementation of Decision Making Statements to Check the give Character is a Vowel or Consonant
 
 #include <iostream>
 using namespace std;
