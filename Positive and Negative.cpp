@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to find Positive and Negative number
+//Aim:Implementation of Decision Making Statements to find Positive and Negative number
 
 #include <iostream>
 using namespace std;
