@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to check the Quadrants
+//Aim:Implementation of Decision Making Statements to check the Quadrants
 
 #include <iostream>
 using namespace std;
