@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to program a Simple Calculator using Switch Case
+//Aim:Implementation of Decision Making Statements to program a Simple Calculator using Switch Case
 
 #include <iostream>
 using namespace std;
