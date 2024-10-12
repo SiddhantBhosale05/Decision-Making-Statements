@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to Check the largert number in given numbers
+//Aim:Implementation of Decision Making Statements to Check the largert number in given numbers
 
 #include <iostream>
 using namespace std;
