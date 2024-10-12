@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Decision Making Statements to Check if the given number is Even or Odd
+//Aim:Implementation of Decision Making Statements to Check if the given number is Even or Odd
 
 #include <iostream>
 using namespace std;
